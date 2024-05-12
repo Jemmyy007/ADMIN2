@@ -14,13 +14,6 @@ const sendAllGames = async (req, res) => {
   };
 
 
-//   const deleteGame = async (req, res) => {
-//     await writeData("./data/games.json", req.games);
-//     res.send({
-//     games: req.games,
-//     updated: req.game //game
-//   });
-// }
 
 const addGameController = async (req, res) => {
     res.send({
